@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+
 
 body {
   margin: 0;
@@ -12,4 +12,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+div {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 40px;
+  background-color: var(--bgColorContainer);
 }
